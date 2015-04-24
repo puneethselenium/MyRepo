@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Project" default="info">
+	<property file="prod.properties"/>
+	<property file="test.properties"/>
+	   <target name="info">
+	   <echo>Apache Ant Version is ${ant.version} - You are at ${sitename}</echo>
+	   	<echo>${myname}</echo>
+    </target>  
+</project>
+
+
